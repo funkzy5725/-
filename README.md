@@ -156,13 +156,13 @@ function typeWriter() {
 typeWriter();
 
 // Live counter
-const startDate = new Date("2025-05-07");
+const startDate = new Date("2025-07-05");
 function updateCounter() {
   const now = new Date();
   const diff = now - startDate;
   const days = Math.floor(diff / (1000 * 60 * 60 * 24));
   document.getElementById("counter").innerHTML =
-    `We've been together for ${days} days ❤️`;
+    `We've been together for 224 days ❤️`;
 }
 updateCounter();
 setInterval(updateCounter, 1000);
